@@ -1,13 +1,11 @@
 from setuptools import find_packages, setup
 
-from gmspy import __version__
-
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
     name='gmspy',
-    version=__version__,
+    version='0.0.6',
     description='Ground Motions Signal Processing for Python',
     long_description=long_description,
     long_description_content_type="text/markdown",
